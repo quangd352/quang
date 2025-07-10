@@ -1,0 +1,53 @@
+.container{
+    padding: 10px ;
+      height: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+    
+}
+.container p
+{
+    padding: 50px;
+}
+.menu{
+    text-align: center;
+    background-color: rgba(180, 136, 136, 0.3);;
+   height: 35px;
+   align-items: center;
+   
+     
+      
+}
+.menu a{
+    
+    margin: 10px;
+text-decoration: none;
+padding: 10px ;
+color: black;
+}
+
+.banner-container {
+ 
+  overflow: hidden;
+  margin: auto;
+  
+  
+}
+
+.banner-slider {
+  display: flex;
+  width: 5700px;
+  animation: slideBanner 30s infinite;
+}
+
+.banner-slider img {
+  width:1900px;
+  height: 600px;
+}
+@keyframes slideBanner {
+  0%   { transform: translateX(0); }
+  33%  { transform: translateX(-1900px); }
+  66%  { transform: translateX(-3800px); }
+  100% { transform: translateX(0); }
+}
