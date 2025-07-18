@@ -1,74 +1,100 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #c1f5f7;
-  padding: 15px 50px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-  z-index: 100;
+ * {
+      
+     
+      font-family: Arial, sans-serif;
+    }
+
+.contener {
+display: flex;
+height: 200vh;
+background-color: #f7f7f7;
+
 }
 
-.nav-links {
-  display: flex;
+.header
+{
+      width: 300px;
+      background-color: #ffffff;
+      border-right: 1px solid #ccc;
+      padding: 20px;
+}
+
+.header span
+{
+      font-size: 50px;
+      color: #0077b6;
+      font-weight: bold;
+}
+.header span:last-child
+{
+  color: #db7735;
+}
+.timkiem 
+{
+  padding: 20px;
+  border: 1px solid #aaa;
+}
+.timkiem  input
+{
+  padding: 8px;
+      margin-right: 10px;
+      border: 1px solid #b6afaf;
+}
+.timkiem button
+{
+  padding: 8px ;
+      background-color: #0077b6;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      margin: 10px 0 0 750px ;
+}
+
+.menu ul  {
   list-style: none;
+  
+} 
+.menu li
+{
+  margin-bottom: 10px;
 }
-
-.nav-links li {
-  position: relative; 
-  margin-left: 30px;
-}
-
-.nav-links li a {
+.menu a
+{
+  color: #080808;
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  padding: 8px 12px;
-  border-radius: 5px;
+}
+.top
+{
+   background-color: #fff9f9;
+      border-bottom: 1px solid #ccc;
+      width: 100%;
+
+}
+.top p {
   
+  text-align: right;
+}
+.content
+{  
   
-  transition: opacity 0.3s ease;
-}
 
-.nav-links li a:hover {
-  background-color: #ddd;
-  color: #d2691e;
+   padding: 50px;
 }
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 38px; 
-  left: 0;
-  background-color: white;
-  min-width: 150px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border-radius: 6px;
-  z-index: 10;
-}
-
-.dropdown-content li {
-  margin: 0;
-}
-
-.dropdown-content li a {
-  display: block;
-  padding: 10px 15px;
-  color: #333;
-}
-
-.dropdown-content li a:hover {
-  background-color: #f0f0f0;
-  color: #d2691e;
-}
-
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  
-}
-main img{
-  padding: auto;
-}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+  }
+  th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #d3caca;
+  }
+  .timkiem
+  {
+    display: flex;
+  }
